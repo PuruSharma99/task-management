@@ -9,3 +9,4 @@ Task Management App
 - And the task with the high priority have red color and it will be visible at the top of the list because it have priority order 1, same goes with the medium priority it's color is yellow having priority order 2, and the low priority color is green with priority order 3.
 - When a new task is created it will be stored in the local storage until the user delete the task.
 
+- GitHub URL: https://github.com/PuruSharma99/task-management
