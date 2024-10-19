@@ -1,0 +1,180 @@
+.taskManagement {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.searchBar {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.formData {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-bottom: 20px;
+  gap: 16px;
+  border: 1px solid;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #323232;
+}
+
+.input,
+.textarea {
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.button,
+.select,
+.editCancel {
+  width: fit-content;
+  padding: 8px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.select {
+  background-color: grey;
+}
+
+.editCancel {
+  background-color: grey;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.priorityCont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.taskList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.taskGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 16px;
+  gap: 16px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #323232;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.taskTitle {
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.taskDescription {
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.priority {
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 6px;
+  width: fit-content;
+}
+
+.taskEndCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.editDeleteBtns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icons {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.completeTask {
+  padding: 8px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.modalContent h2 {
+  margin-top: 0;
+}
+
+.endPriorityBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.editTaskTxt {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.editContBtns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
